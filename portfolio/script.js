@@ -10,9 +10,9 @@ themeSwitchButton.addEventListener('click', () => {
     var img2 = document.getElementById("imgtwo");
 
     // Define the image sources
-    const hackerImgSrc = "../photos/hacker.png";
-    const originalImgSrc1 = "../photos/hacker2.png"; // Original image for img1
-    const originalImgSrc2 = "../photos/hacker2.png"; // Original image for img2
+    const hackerImgSrc = "./photos/hacker.png";
+    const originalImgSrc1 = "./photos/hacker2.png"; // Original image for img1
+    const originalImgSrc2 = "./photos/hacker2.png"; // Original image for img2
 
     // Check if the image is already 'hacker.png', toggle back to the original
     if (img1.src.includes("hacker.png")) {
