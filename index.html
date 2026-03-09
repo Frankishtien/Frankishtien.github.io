@@ -15,7 +15,7 @@
             <li><a href="#home" style="--i:1">Home</a></li>
             <li><a href="#about" style="--i:2">About</a></li>
             <li><a href="#skill" style="--i:3">Skills</a></li>
-            <li><a href="#portfolio" style="--i:4">Portfolio</a></li>
+            <li><a href="#portfolio" style="--i:4">Writeups</a></li>
             <li><a href="#contact" style="--i:5">Contact</a></li>
         </ul>
         <button class="theme-switch" >
@@ -240,113 +240,124 @@
 
 
     <!-- //////////////////portfolio//////////////////////// -->
+
     <section class="portfolio" id="portfolio">
         <div class="main-text">
-          <h1 class="sub-title" >Latest <span>Projects</span></h1>
+          <h1 class="sub-title" >My <span>Writeups</span></h1>
         </div>
 
-        <div class="container">
-          <div class="fillter-buttons">
-              <button class="btn" data-filter="all">All</button>
-              <button class="btn" data-filter=".product">Product</button>
-              <button class="btn" data-filter=".inter">Interacting</button>
-              <button class="btn" data-filter=".web">WebApp</button>
-          </div>
 
-          <div class="portfolio-gallery">
-              <div class="port-box mix web">
-                  <div class="port-image">
-                      <img src="./photos/p-1.png " style="max-width: 600px;" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
+        
+ <div class="writeups-container">
+            <div class="writeup-box">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="SQL Injection">
+                    <div class="image-overlay">
+                        <span class="category-tag">Web Security</span>
+                    </div>
+                </div>
+                <div class="writeup-content">
+                    <div class="writeup-meta">
+                        <div class="platform">
+                            <i class="ri-folder-line"></i>
+                            <span>PortSwigger</span>
+                        </div>
+                        <div class="difficulty">Intermediate</div>
+                    </div>
+                    <h3>SQL Injection Exploitation</h3>
+                    <p>Step-by-step exploitation of a vulnerable login form and bypassing authentication using advanced SQL injection techniques.</p>
+                    <a href="#" class="read-btn">
+                        Read Analysis
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
 
-              <div class="port-box mix product">
-                  <div class="port-image">
-                      <img src="./photos/p-2.png"  style="max-width: 600px;" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
+            <div class="writeup-box">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1544890225-2f3faec4cd60?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Access Control">
+                    <div class="image-overlay">
+                        <span class="category-tag">Access Control</span>
+                    </div>
+                </div>
+                <div class="writeup-content">
+                    <div class="writeup-meta">
+                        <div class="platform">
+                            <i class="ri-folder-line"></i>
+                            <span>TryHackMe</span>
+                        </div>
+                        <div class="difficulty">Advanced</div>
+                    </div>
+                    <h3>Broken Access Control</h3>
+                    <p>How I escalated privileges by exploiting insecure direct object references and horizontal privilege escalation vulnerabilities.</p>
+                    <a href="#" class="read-btn">
+                        Read Analysis
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
 
-              <div class="port-box mix web">
-                  <div class="port-image">
-                      <img src="./photos/p-4.png" style="max-width: 600px;" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#skill"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
+            <div class="writeup-box">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Session Security">
+                    <div class="image-overlay">
+                        <span class="category-tag">Session Security</span>
+                    </div>
+                </div>
+                <div class="writeup-content">
+                    <div class="writeup-meta">
+                        <div class="platform">
+                            <i class="ri-folder-line"></i>
+                            <span>AppSecMaster</span>
+                        </div>
+                        <div class="difficulty">Intermediate</div>
+                    </div>
+                    <h3>Cookie Brute Forcing</h3>
+                    <p>My approach to decoding and brute-forcing weak session tokens with automated tools and custom scripts.</p>
+                    <a href="#" class="read-btn">
+                        Read Analysis
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
 
-              <div class="port-box mix product">
-                  <div class="port-image">
-                      <img src="./photos/4.jpg" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
-
-              <div class="port-box mix inter">
-                  <div class="port-image">
-                      <img src="./photos/5.jpg" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
-
-              <div class="port-box mix inter">
-                  <div class="port-image">
-                      <img src="./photos/6.jpg" alt="">
-                  </div>
-                  <div class="port-content">
-                      <h3>Graphic Design</h3>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Aliquid sint labore at porro? Impedit eligendi nisi obcaecati tenetur. 
-                          Animi rem 
-                      </p>
-                      <a href="#"><i class='bx bx-link-external'></i></a>
-                  </div>
-              </div>
-
-          </div>
+            <div class="writeup-box">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="XSS Attack">
+                    <div class="image-overlay">
+                        <span class="category-tag">Client-Side</span>
+                    </div>
+                </div>
+                <div class="writeup-content">
+                    <div class="writeup-meta">
+                        <div class="platform">
+                            <i class="ri-folder-line"></i>
+                            <span>HackTheBox</span>
+                        </div>
+                        <div class="difficulty">Beginner</div>
+                    </div>
+                    <h3>XSS Exploitation Guide</h3>
+                    <p>Finding, exploiting, and mitigating reflected XSS vulnerabilities with payload crafting and filter evasion techniques.</p>
+                    <a href="#" class="read-btn">
+                        Read Analysis
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
         </div>
+
+        <div class="btn-container">
+            <a href="./html/Writeup.html" target="_blank" class="see-more-btn">
+                <i class="ri-github-fill"></i>
+                Explore All Writeups
+            </a>
+        </div>
+
+
+
+
   </section>
+    
     <!-- //////////////////portfolio//////////////////////// -->
 
 
