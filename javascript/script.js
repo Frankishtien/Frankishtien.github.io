@@ -29,7 +29,7 @@ themeSwitchButton.addEventListener('click', () => {
 
 ////////////////////////////////text/////////////////////////////
 var typed = new Typed(".text", {
-    strings: ["Jr.pentester" , "Web Developer" ,"Ethical Hacker"],
+    strings: ["Jr.pentester" , "Bug Hunter" ,"CTF Player"],
     typespeed:100,
     backspeed:100,
     backdelay:1000,
